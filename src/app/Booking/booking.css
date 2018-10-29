@@ -1,0 +1,25 @@
+  .bookingLocation{
+    margin-top: 5%;
+  }
+  .bookingTop{
+    padding-top: 20px;
+    background-color: white;
+  }
+  .bookingTextarea{
+    width:77%;
+    height:120px;
+    border: none;
+    font-size : 15px;
+    margin-top: 6px;
+  }
+  .bookingOneList{
+    height: 5%;
+  }
+  .bookingRemark{
+    background-color: white;
+    margin-top: 4px;
+  }
+  .bookingPerson{
+    background-color: white;
+    margin-top: 20px;
+  }

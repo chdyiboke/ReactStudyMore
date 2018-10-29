@@ -1,0 +1,70 @@
+/* 默认样式初始化 */
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,li,dl,dd,dt,form,input,textarea,select{
+    margin: 0;
+    padding: 0;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    display: block;
+    border: 0;
+}
+.clearfix:after{
+    content: ".";
+    overflow: hidden;
+    visibility: hidden;
+    height: 0;
+    clear: both;
+    display: block;
+}
+body{
+    font-size: 0.32rem !important;
+    padding-top: 1.28rem;
+    background: #f6f6f6 !important;
+}
+
+/* 头部 */
+.navBar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    box-sizing: border-box;
+}
+.navBar .am-navbar-title {
+    font-size: 0.4rem;
+}
+.navBar>.am-navbar {
+    height: 1.4rem;
+    padding-top: 0.4rem;
+}
+.am-navbar-left span {
+    font-size: 0.36rem;
+}
+.am-navbar-right a,.am-navbar-right span{
+    height: 0.88rem;
+    line-height: 0.88rem;
+    min-width: 0.64rem;
+    color: #fff;
+    text-align: center;
+    font-size: 0.36rem;
+}
+.am-navbar>.am-navbar-right {
+    margin-right: 0.1rem;
+}
+.prev,.next {
+    color: #999;
+    font-size: 0.4rem;
+}
+
+/* 详情页popover */
+.am-popover-inner {
+    color: #fff !important;
+}
+.am-popover-inner-wrapper, .am-popover-arrow {
+    background: #48474B !important;
+}

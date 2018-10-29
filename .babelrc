@@ -1,0 +1,14 @@
+{
+  "presets": [
+      "react", 
+      [
+          "env",
+          {"modules": false}
+      ], 
+      "stage-0"
+  ],
+  "plugins": [
+      "babel-plugin-transform-object-rest-spread",
+      ["import", { "libraryName": "antd-mobile", "style": "css" }]
+  ]
+}

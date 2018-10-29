@@ -1,0 +1,74 @@
+  .bookingLocation{
+    margin-top: 5%;
+  }
+  .bookingTop{
+    padding-top: 20px;
+    background-color: white;
+  }
+  .bookingTextarea{
+    width:77%;
+    height:120px;
+    border: none;
+    font-size : 15px;
+    margin-top: 6px;
+  }
+  .bookingOneList{
+    height: 5%;
+  }
+  .bookingRemark{
+    background-color: white;
+    margin-top: 4px;
+  }
+  .bookingPerson{
+    background-color: white;
+    margin-top: 20px;
+  }
+  .img{
+    display: inline;
+    border-radius: 50%;
+    width: 8%;
+  }
+  .addressList li {
+    line-height: 1.1rem;
+    padding-left: 0.2rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    position: relative;
+      background: white;
+      border-bottom: 1px solid #f0f0f0;
+  }
+  
+  .addressList li p {
+    padding-left: 0.2rem;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+    font-size: 0.32rem;
+  }
+  
+  .addressList li img {
+    width: 0.8rem;
+    height: 0.8rem;
+      border-radius: 50%;
+      display: block;
+  }
+  
+  .addressList li .onlyName {
+    display: inline-block;
+    vertical-align: middle;
+    width: 0.8rem;
+    text-align: center;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    color: white;
+    border-radius: 50%;
+  }
+  
+  .addressList li:active {
+    /* background-color: #eee; */
+    transform: scale(0.98)
+  }
+  .roomTop{
+      padding-top: 6px;
+  }
